@@ -513,6 +513,10 @@ body {
   margin-left: 16px;
 }
 /* Modal Window */
+.modal-window .is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
 .modal-window {
   position: fixed;
   top: 0;
